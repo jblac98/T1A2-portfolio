@@ -1,3 +1,17 @@
 # T1A2-portfolio
 
 Logo reference 
+
+   <div class="panel">
+            </div>
+        <div class="logo">
+            <p>
+                <span>Jessica</span>
+                <span>Blackman</span>
+            </p>
+
+            https://discord.com/channels/1235887508135608321/1235894028420120597/1241590584699912294
+
+
+https://www.youtube.com/watch?v=XIfEWsF2T5A - how to split a background into 2 colours
+https://www.w3schools.com/howto/howto_css_rounded_images.asp - how to create round images

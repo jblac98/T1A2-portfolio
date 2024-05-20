@@ -1,0 +1,58 @@
+:root {
+    --light-pink: #F9D8F9;
+    --violet: #B726EA;
+    --mauve: #D6CDD9;
+    --white: #F4F2F8;
+
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(
+        to right,
+        #B726EA 0%,
+        #B726EA 60%,
+        #F4F2F8 60%, 
+        #F4F2F8 100%
+    );
+}
+
+.cover-photo img {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.details, h1, h2 {
+    background-color: var(--mauve);
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 30%;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-media a i {
+    font-size: 32px;
+    color: var(--mauve);
+}
+
+ 
+.nav-item {
+    background-color: var(--mauve);
+    text-decoration: none;
+}
+
+
+
+footer {
+    margin-bottom: 20px;
+}
