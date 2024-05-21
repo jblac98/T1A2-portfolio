@@ -15,6 +15,19 @@ body {
         #F4F2F8 60%, 
         #F4F2F8 100%
     );
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
 
 .cover-photo img {
@@ -32,7 +45,8 @@ body {
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
-    border-radius: 30%;
+    margin-top: 5%;
+    padding: .1rem;
 }
 
 .social-media {
@@ -45,14 +59,24 @@ body {
     color: var(--mauve);
 }
 
- 
-.nav-item {
-    background-color: var(--mauve);
+nav {
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
     text-decoration: none;
+    background-color: var(--mauve);
+    color: var(--violet);
+    padding: 0.5rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 1.5rem;
+    float: left;
+    flex-direction: column;
+    justify-content: center;
 }
-
-
-
-footer {
-    margin-bottom: 20px;
-}
+ 
