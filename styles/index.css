@@ -12,7 +12,9 @@ body {
         to right,
         #B726EA 0%,
         #B726EA 60%,
-        #F4F2F8 60%, 
+        #F9D8F9 60%, 
+        #F9D8F9 69%,
+        #F4F2F8 69%,
         #F4F2F8 100%
     );
 
@@ -47,6 +49,7 @@ header {
     margin-right: 10%;
     margin-top: 5%;
     padding: .1rem;
+    border-radius: 10%;
 }
 
 .social-media {
@@ -74,9 +77,10 @@ nav a {
     padding: 0.5rem;
     margin-left: 15%;
     margin-right: 15%;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     float: left;
     flex-direction: column;
     justify-content: center;
+    border-radius: 10%;
 }
  
