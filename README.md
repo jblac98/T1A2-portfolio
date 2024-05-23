@@ -18,3 +18,4 @@ https://www.w3schools.com/howto/howto_css_rounded_images.asp - how to create rou
 https://ait.instructure.com/courses/5351/pages/conference-recordings-term-1 - nav items, splitting the pages 
 https://www.w3schools.com/html/html_symbols.asp - for the copy right symbol
 https://ait.instructure.com/courses/5351/pages/conference-recordings-term-1 - t1w3 thursday - footer work
+https://ait.instructure.com/courses/5351/pages/conference-recordings-term-1 - t1w3 saturday - blog posts 
