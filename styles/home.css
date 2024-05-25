@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --light-pink: #F9D8F9;
     --violet: #B726EA;
     --mauve: #D6CDD9;
@@ -57,7 +57,7 @@
         margin-left: 30%;
         margin-right: 30%;
         margin-top: 1rem;
-        float: left;
+        float: left;s
         flex-direction: column;
         justify-content: center;
         border-radius: 10%;
@@ -67,4 +67,4 @@
 
 
     
-    
+     */
