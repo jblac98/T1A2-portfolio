@@ -1,0 +1,32 @@
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-elements {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.form-elements label {
+    font-size: 18px;
+    margin: 0;
+    text-align: left;
+}
+
+.form-input {
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-input:not(.form-textarea) {
+    height: 35px;
+}
+
+.form-textarea {
+    resize: none;
+}

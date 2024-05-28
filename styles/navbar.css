@@ -1,4 +1,6 @@
 
+/* To create a side bar when it is not active */
+
 .sidebar {
     position: absolute;
     top: 0;
@@ -8,14 +10,20 @@
     background-color: var(--white);
     padding: 0.4rem 0.8rem;
     transition: all 0.5s ease;
+    border-radius: 0px 20px 20px 0px;
+    
  
  }
  
- .sidebar.active {
+ /* To widen the sidebar once it has been clicked to open */
+
+.sidebar.active {
     width: 250px;
  
  }
  
+/* To style the sidebar buttons */
+
  .sidebar #btn {
     position: absolute;
     color: var(--violet);
@@ -27,31 +35,22 @@
     cursor: pointer;
  }
  
+ /* To make th menu icon positioned to the ride side of the panel when opened */
+
  .sidebar.active #btn {
     left: 90%;
-    
  }
  
- .sidebar .top .logo {
-    color: #000000;
+ /* To create the menu icon to be above the photo */
+.sidebar .top .logo {
     display: block;
     height: 50px;
     width: 100%;
-    align-items: center;
     pointer-events: none;
-    /* opacity: 0; */
-    display: inline-block;
+    opacity: 0;
  }
  
- .sidebar.active .top .logo {
-    opacity: 1;
- }
- 
- .top .logo i {
-    font-size: 2rem;
-    margin-right: 5px;
- }
- 
+ /* To align the user class to center and give space to the image */
  .user {
     display: flex;
     align-items: center;
@@ -59,12 +58,15 @@
  
  }
 
+ /* To size the image for the .sidebar */
  .user-img {
     width: 50px;
     border-radius: 100%;
     border: 1px solid #F4F2F8;
  } 
  
+ /* Styling of the contents in the <p> tags */
+
  .user p {
     color: var(--violet);
     opacity: 1;
@@ -76,11 +78,11 @@
  }
  
  .sidebar p {
-    opacity: 0;
+    display: none;
  }
  
  .sidebar.active p {
-    opacity: 1;
+    display: inline;
  }
  
  .sidebar ul li {
@@ -114,10 +116,19 @@
  }
  
  .sidebar .nav-item {
-    opacity: 0;
+    display: none;
+    
+   
  }
  
  .sidebar.active .nav-item {
-    opacity: 1;
+    display: inline;
  }
  
+ /* To create spacing between the sidebar nav items */
+* {
+   margin-top: 5px;
+   margin-bottom: 35px;
+   box-sizing: border-box;
+
+}

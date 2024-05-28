@@ -1,10 +1,14 @@
+
 :root {
     --light-pink: #F9D8F9;
     --violet: #B726EA;
     --mauve: #D6CDD9;
     --white: #F4F2F8;
+    --black: #000000;
 
 }
+
+/* To split the background into 3 colours based on their percentages. */
 
 body {
     height: 100vh;
@@ -19,68 +23,55 @@ body {
     );
 
     min-height: 100vh;
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
 }
 
-header {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-}
-
-.cover-photo img {
-    width: 50%;
-    height: 50%;
-    border-radius: 50%;
+.headings h2 {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
+    margin-left: 5%;
+    padding: 10;
+    height: 10vh;
+    text-align: left;
+    line-height: 15vh;
+    color: var(--white);
+    
 }
 
-.details, h1, h2 {
-    background-color: var(--mauve);
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 5%;
-    padding: .1rem;
-    border-radius: 10%;
+.headings h1 {
+    margin: 0;
+    position: relative;
+    white-space: nowrap;
+    padding: 0;
+    height: 10vh;
+    color: var(--white);
+
 }
 
-.social-media {
-    display: flex;
-    justify-content: space-around;
-}
-
-.social-media a i {
-    font-size: 32px;
-    color: var(--mauve);
-}
-
-nav {
-    flex-direction: column;
-    justify-content: center;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-}
-
-nav a {
-    text-decoration: none;
-    background-color: var(--mauve);
+.headings h3 {
+    margin-right: 5%;
+    padding: 0;
+    text-align: right;
+    height: 5%;
     color: var(--violet);
-    padding: 0.5rem;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 1rem;
-    float: left;
-    flex-direction: column;
-    justify-content: center;
+}
+
+.headings {
+    background-color: var(--black);
+    margin-top: 8%;
+    margin-left: 35%;
+    margin-right: 35%;
     border-radius: 10%;
 }
- 
+
+.intro-para {
+    background-color: var(--black);
+    color: var(--white);
+    margin-top: 5%;
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
+
+}
