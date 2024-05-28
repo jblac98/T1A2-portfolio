@@ -1,0 +1,134 @@
+
+/* To create a side bar when it is not active */
+
+.sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 80px;
+    background-color: var(--white);
+    padding: 0.4rem 0.8rem;
+    transition: all 0.5s ease;
+    border-radius: 0px 20px 20px 0px;
+    
+ 
+ }
+ 
+ /* To widen the sidebar once it has been clicked to open */
+
+.sidebar.active {
+    width: 250px;
+ 
+ }
+ 
+/* To style the sidebar buttons */
+
+ .sidebar #btn {
+    position: absolute;
+    color: var(--violet);
+    top: .4rem;
+    left: 50%;
+    font-size: 1.2rem;
+    line-height: 50px;
+    transform: translateX(-50%);
+    cursor: pointer;
+ }
+ 
+ /* To make th menu icon positioned to the ride side of the panel when opened */
+
+ .sidebar.active #btn {
+    left: 90%;
+ }
+ 
+ /* To create the menu icon to be above the photo */
+.sidebar .top .logo {
+    display: block;
+    height: 50px;
+    width: 100%;
+    pointer-events: none;
+    opacity: 0;
+ }
+ 
+ /* To align the user class to center and give space to the image */
+ .user {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+ 
+ }
+
+ /* To size the image for the .sidebar */
+ .user-img {
+    width: 50px;
+    border-radius: 100%;
+    border: 1px solid #F4F2F8;
+ } 
+ 
+ /* Styling of the contents in the <p> tags */
+
+ .user p {
+    color: var(--violet);
+    opacity: 1;
+    margin-left: 1rem;
+ }
+ 
+ .bold {
+    font-weight: 600;
+ }
+ 
+ .sidebar p {
+    display: none;
+ }
+ 
+ .sidebar.active p {
+    display: inline;
+ }
+ 
+ .sidebar ul li {
+    position: relative;
+    list-style-type: none;
+    height: 50px;
+    width: 90%;
+    margin: 0.8rem auto;
+    line-height: 50px;
+ }
+ 
+ .sidebar ul li a {
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 0.8rem;
+ }
+ 
+ .sidebar ul li a:hover {
+    background-color: var(--mauve);
+    color: var(--black);
+ }
+ 
+ .sidebar ul li a i {
+    min-width: 50px;
+    text-align: center;
+    height: 50px;
+    border-radius: 12px;
+    line-height: 50px;
+ }
+ 
+ .sidebar .nav-item {
+    display: none;
+    
+   
+ }
+ 
+ .sidebar.active .nav-item {
+    display: inline;
+ }
+ 
+ /* To create spacing between the sidebar nav items */
+* {
+   margin-top: 5px;
+   margin-bottom: 35px;
+   box-sizing: border-box;
+
+}

@@ -6,23 +6,70 @@
     <title>Jess Blackman - Portfolio</title>
     <link rel="stylesheet" href="../styles/index.css"> 
     <link rel="stylesheet" href="../styles/about.css">
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="icon" type="logo" href="../images/favicon.ico">
-    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   
+       
+   
 </head>
 <body>
     <header>
-        <a href="../JESSICA BLACKMAN.pdf" download="Resume">
-            <button type="button">Download</button>
-        </a>
         <main>
-
-
-             <div class="heading"></div>
-             <h1>About Me</h1>
-             <div class="description"></div>
-             <h2>Who am I?</h2>
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, laboriosam omnis quos modi repudiandae suscipit, molestiae consequatur fuga eveniet dolorem distinctio! Placeat voluptates deleniti, ea est iste tempore quas. Rem!</p>
+            <div class="sidebar">
+                <div class="top">
+                    <div class="logo">
+                    </div>
+                    <i class="bx bx-menu" id="btn"></i>
+                </div>
+                <div class="user">
+                    <img src="../images/Portrait.jpg" alt="Portrait of me" class="user-img">
+                    <div>
+                        <p class="bold">Jess Blackman</p>
+                        <p>Junior Developer</p>
+                    </div>
+                </div>
+                <ul>
+                    <a href="../index.html">
+                        <i class='bx bxs-home-smile'></i>
+                        <span class="nav-item">Home</span>
+                    </a>
+                </ul>
+                <ul>
+                    <a href="./about.html">
+                        <i class='bx bx-label'></i>
+                        <span class="nav-item">About</span>
+                    </a>
+                </ul>
+                <ul>
+                    <a href="./blog.html">
+                        <i class='bx bx-book-open'></i>
+                        <span class="nav-item">Blog</span>
+                    </a>
+                </ul>
+                <ul>
+                    <a href="./contact.html">
+                        <i class='bx bx-phone'></i>
+                        <span class="nav-item">Contact</span>
+                    </a>
+                </ul>
+            </div>
+            <h1>About</h1>
+            <div class="who-am-i">
+                    <h2>Who am I?</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet eget sit amet tellus cras. Sit amet est placerat in egestas erat imperdiet sed. Quis eleifend quam adipiscing vitae proin. Tortor posuere ac ut consequat semper viverra nam libero justo. Eu scelerisque felis imperdiet proin fermentum leo vel orci. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi. Posuere ac ut consequat semper viverra nam libero justo laoreet. Sit amet est placerat in. Cursus in hac habitasse platea. Fames ac turpis egestas sed. Sit amet cursus sit amet dictum sit amet justo. Nulla pharetra diam sit amet. Placerat orci nulla pellentesque dignissim enim sit amet. Tempus quam pellentesque nec nam aliquam sem et tortor. Fermentum dui faucibus in ornare quam viverra. Nibh praesent tristique magna sit amet purus gravida quis blandit.</p>
+            </div>
+            <div class="what-we-do">
+                    <h2>What we do</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet eget sit amet tellus cras. Sit amet est placerat in egestas erat imperdiet sed. Quis eleifend quam adipiscing vitae proin. Tortor posuere ac ut consequat semper viverra nam libero justo. Eu scelerisque felis imperdiet proin fermentum leo vel orci. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi. Posuere ac ut consequat semper viverra nam libero justo laoreet. Sit amet est placerat in. Cursus in hac habitasse platea. Fames ac turpis egestas sed. Sit amet cursus sit amet dictum sit amet justo. Nulla pharetra diam sit amet. Placerat orci nulla pellentesque dignissim enim sit amet. Tempus quam pellentesque nec nam aliquam sem et tortor. Fermentum dui faucibus in ornare quam viverra. Nibh praesent tristique magna sit amet purus gravida quis blandit.</p>
+            </div>
+            <div class="container">
+            <div class="image">
+                <img src="../images/safar-safarov-koOdUvfGr4c-unsplash.jpg" alt="Computer screen with code">
+            </div>
+        </div>
         </main>
     </header>
     <footer>
@@ -40,4 +87,12 @@
         <p>&#169; 2024 Jessica Blackman</p>
     </footer>
 </body>
+<script>
+    let btn = document.querySelector('#btn');
+    let sidebar = document.querySelector('.sidebar');
+
+    btn.onclick = function () {
+        sidebar.classList.toggle('active')
+    };
+</script>
 </html>

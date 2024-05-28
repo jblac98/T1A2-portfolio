@@ -21,3 +21,5 @@ https://ait.instructure.com/courses/5351/pages/conference-recordings-term-1 - t1
 https://ait.instructure.com/courses/5351/pages/conference-recordings-term-1 - t1w3 saturday - blog posts 
 https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp - Collapsible sidebar 
 https://www.geeksforgeeks.org/how-to-trigger-a-file-download-when-clicking-an-html-button-or-javascript/ - download file button
+https://www.youtube.com/watch?v=uy1tgKOnPB0 - collapsible side bar menu
+https://www.w3schools.com/howto/howto_css_contact_form.asp - how to create a contact form
