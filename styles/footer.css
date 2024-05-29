@@ -14,7 +14,8 @@ body {
 
 .social-media {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    gap: 10%;
 }
 
 .social-media a i {

@@ -1,0 +1,71 @@
+main {
+    margin-left: 100px;
+}
+
+footer {
+    margin-left: 100px;
+}
+
+:root {
+    --light-pink: #F9D8F9;
+    --violet: #B726EA;
+    --mauve: #D6CDD9;
+    --white: #F4F2F8;
+    --black: #000000;
+    --lightgray: #F4F4F4;
+}
+
+/* To split the background into 3 colours based on their percentages. */
+
+body {
+    height: 100vh;
+    background: linear-gradient(
+        to right,
+        #B726EA 0%,
+        #F9D8F9 90%, 
+        #F4F2F8 95%,
+        #F4F2F8 100%
+    );
+
+    /* min-height: 100vh; */
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.headings h2 {
+    display: block;
+    margin-left: 5%;
+    padding: 10;
+    height: 10vh;
+    text-align: left;
+    line-height: 15vh;
+    color: var(--white);
+    
+}
+
+.headings h1 {
+    margin: 0;
+    position: relative;
+    white-space: nowrap;
+    padding: 0;
+    height: 10vh;
+    color: var(--white);
+
+}
+
+.headings h3 {
+    margin-right: 5%;
+    padding: 0;
+    text-align: right;
+    height: 5%;
+    color: var(--violet);
+}
+
+.headings {
+    background-color: var(--black);
+    margin-top: 8%;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 10%;
+}
