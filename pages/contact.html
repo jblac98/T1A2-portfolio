@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jess Blackman - Portfolio</title>
-    <link rel="stylesheet" href="../styles/index.css"> 
+    <link rel="stylesheet" href="../styles/global.css"> 
     <link rel="stylesheet" href="../styles/contact.css">
     <link rel="stylesheet" href="../styles/navbar.css">
     <link rel="stylesheet" href="../styles/footer.css">
@@ -16,72 +16,85 @@
 </head>
 <body>
     <header>
-        <main>
-            <div class="sidebar">
-                <div class="top">
-                    <div class="logo">
-                    </div>
-                    <i class="bx bx-menu" id="btn"></i>
+        <div class="sidebar">
+            <div class="top">
+                <div class="logo">
                 </div>
-                <div class="user">
-                    <img src="../images/Portrait.jpg" alt="Portrait of me" class="user-img">
-                    <div>
-                        <p class="bold">Jess Blackman</p>
-                        <p>Junior Developer</p>
-                    </div>
+                <i class="bx bx-menu" id="btn"></i>
+            </div>
+            <div class="user">
+                <img src="../images/Portrait.jpg" alt="Portrait of me" class="user-img">
+                <div>
+                    <p class="bold">Jess Blackman</p>
+                    <p>Junior Developer</p>
                 </div>
-                <ul>
-                    <a href="../index.html">
-                        <i class='bx bxs-home-smile'></i>
-                        <span class="nav-item">Home</span>
-                    </a>
-                </ul>
-                <ul>
-                    <a href="./about.html">
-                        <i class='bx bx-label'></i>
-                        <span class="nav-item">About</span>
-                    </a>
-                </ul>
-                <ul>
-                    <a href="./blog.html">
-                        <i class='bx bx-book-open'></i>
-                        <span class="nav-item">Blog</span>
-                    </a>
-                </ul>
-                <ul>
-                    <a href="./contact.html">
-                        <i class='bx bx-phone'></i>
-                        <span class="nav-item">Contact</span>
-                    </a>
-                </ul>
             </div>
-       <h1>Contact</h1>
-           <form>
-            <div class="form-elements">
-                <label>Name:</label>
-                <input type="text" class="form-input">
-            </div>
-            <div class="form-elements">
-                <label>Email:</label>
-                <input type="text" class="form-input">
-            </div>
-            <div class="form-elements">
-                <label>Subject:</label>
-                <input type="text" class="form-input">
-            </div>
-            <div class="form-elements">
-                <label>Message:</label>
-                <textarea 
-                rows="3"
-                class="form-input form-textarea">
-            </textarea>
-            </div>
-            <div class="btn-div">
-                <button id="submit">submit</button>
-            </div>
-           </form>
-        </main>
+            <ul>
+                <a href="../index.html">
+                    <i class='bx bxs-home-smile'></i>
+                    <span class="nav-item">Home</span>
+                </a>
+            </ul>
+            <ul>
+                <a href="./about.html">
+                    <i class='bx bx-label'></i>
+                    <span class="nav-item">About</span>
+                </a>
+            </ul>
+            <ul>
+                <a href="./blog.html">
+                    <i class='bx bx-book-open'></i>
+                    <span class="nav-item">Blog</span>
+                </a>
+            </ul>
+            <ul>
+                <a href="./contact.html">
+                    <i class='bx bx-phone'></i>
+                    <span class="nav-item">Contact</span>
+                </a>
+            </ul>
+        </div>
     </header>
+    <main>
+        <h1>Contact Us</h1>
+        <div class="myinfobox">
+            <h2>Get In Touch!</h2>
+            <ul>
+                <i class='bx bxs-edit-location'></i>
+                <span class="contact-icon">Melbourne, Australia</span>
+            </ul>
+            <ul>
+                <i class='bx bxs-envelope' ></i>
+                <span class="contact-icon">j_blac@outlook.com</span>
+            </ul>
+            <ul>
+                <i class='bx bxs-phone-call' ></i>
+                <span class="contact-icon">0400 000 000</span>
+            </ul>
+        </div>
+        <div class="emailmebox">
+            <form class="form">
+                <div class="form-elements">
+                    <label>Name:</label>
+                    <input type="text" class="form-input">
+                </div>
+                <div class="form-elements">
+                    <label>Email:</label>
+                    <input type="text" class="form-input">
+                </div>
+                <div class="form-elements">
+                    <label>Message:</label>
+                    <textarea
+                    rows="4"
+                    class="form-input form-textarea">
+                </textarea>
+                </div>
+                <div class="btn-div">
+                    <button id="submit">submit</button>
+                </div>
+            </form>
+        </div>
+    </main>
     <footer>
         <div class="social-media">
             <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3ByLKOKEJJSTurCBbuss%2BCmg%3D%3D" target="_blank">
@@ -89,9 +102,6 @@
             </a>
             <a href="https://github.com/jblac98" target="_blank">
                 <i class="fa-brands fa-github"></i>
-            </a>
-            <a href="https://www.instagram.com/jessblackman98/" target="_blank">
-                <i class="fa-brands fa-instagram"></i>
             </a>
         </div>
         <p>&#169; 2024 Jessica Blackman</p>

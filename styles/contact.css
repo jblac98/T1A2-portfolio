@@ -1,32 +1,100 @@
-main {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+
+.form {
+    /* padding: 5%; */
 }
 
+/* To style and position the contact details */
+.myinfobox {
+    /* text-align: left;
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-right: 55%;
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 20px; */
+    display: block;
+    padding-right: 5%;
+}
+
+.emailmebox {
+    display: inline-block;
+}
+
+/* To style the heading of the page */
+h1 {
+    font-size: 43px;
+    margin-top: 5%;
+    margin-bottom: 6%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    border-radius: 10PX;
+}
+
+/* To style the boxes ad their positions */
 .form-elements {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 24px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* margin-bottom: 15px; */
+    /* margin-top: 0; */
+    /* margin-right: 30%; */
+    align-items: flex-end;
+
 }
 
+/* To style to labels above their boxes */
 .form-elements label {
     font-size: 18px;
     margin: 0;
-    text-align: left;
+    display: block;
+    /* text-align: left; */
 }
 
+/* To style the inside of the boxes */
 .form-input {
     border: 1px solid black;
     outline: none;
     border-radius: 5px;
-    font-size: 16px;
+    /* /* font-size: 16px; */
+    
 }
 
+/* To put height in the boxes when typing and exclude the textarea (message box) */
 .form-input:not(.form-textarea) {
     height: 35px;
 }
 
+/* To keep the box from expanding and keep the page as is */
 .form-textarea {
     resize: none;
 }
+
+/* To create a shadow around the boxes when clicked onto it */
+.form-input:focus {
+    box-shadow: -2px 0px 21px -2px rgba(0,0,0,0.77);
+}
+
+/* To style the submit button */
+#submit {
+    height: 40px;
+    background-color: var(--black);
+    color: var(--white);
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+}
+
+/* To style the submit button */
+.btn-div {
+    /* text-align: right; */
+    /* margin-right: 30%; */
+    
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: var(--violet);
+}
+
