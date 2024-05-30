@@ -86,13 +86,6 @@ h1 {
     width: 100%;
 }
 
-/* To style the submit button */
-.btn-div {
-    /* text-align: right; */
-    /* margin-right: 30%; */
-    
-}
-
 #submit:hover {
     cursor: pointer;
     background-color: var(--violet);

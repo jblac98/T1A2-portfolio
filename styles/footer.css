@@ -14,13 +14,14 @@ body {
 
 .social-media {
     display: flex;
-    justify-content: space-evenly;
-    gap: 10%;
+    align-items: center;
+    justify-content: space-around;
+    
 }
 
 .social-media a i {
     font-size: 32px;
-    color: var(--mauve);
+    color: var(--black);
 }
 
 nav {

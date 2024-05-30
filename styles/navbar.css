@@ -128,10 +128,3 @@
  .sidebar.active .nav-item {
     display: inline;
  }
- 
- /* To create spacing between the sidebar nav items */
-* {
-   /* margin-top: 5px;
-   margin-bottom: 35px;
-   box-sizing: border-box; */
-}

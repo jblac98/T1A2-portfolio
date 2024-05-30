@@ -1,94 +1,39 @@
-:root {
-    --light-pink: #F9D8F9;
-    --violet: #B726EA;
-    --mauve: #D6CDD9;
-    --white: #F4F2F8;
-    --black: #000000;
-
-}
 
 h1 {
     font-size: 42px;
-    padding: 10%;
-}
-
-main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10%;
+    padding: 5%;
 }
 
 article {
     background-color: var(--mauve);
-    padding: 24px;
     border-radius: 5%;
-    overflow: hidden;
     text-align: center;
     margin: 15px 0;
 }
 
 .blog-image {
-    width: 30%;
-    height: 35%;
+    width: 25%;
+    height: 30%;
+    background-color: var(--mauve);
+    padding: 1%;
+    margin-top: 5%;
+    border-radius: 2%;
 }
 
-* {
-   /* margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   font-family:sans-serif; */
+ul {
+    list-style-type: none;
 }
 
+li p {
+    display: inline-block;
+    width: 40%;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 3%;
 
-.main-content {
-   position: relative;
-   background-color: var(--black);
-   min-height: 100vh;
-   top: 0;
-   left: 80px;
-   transition: all 0.5s ease;
-   width: calc(100% - 80px);
-   padding: 1 rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.button {
+    display: block;
+    background-color: #000000;
+}
