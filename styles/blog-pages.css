@@ -1,0 +1,17 @@
+.blog-image {
+  width: 40%;
+  background-color: var(--mauve);
+  padding: 1%;
+  border-radius: 2%;
+}
+
+.blog p {
+  background-color: var(--mauve);
+  width: 50%;
+  border-radius: 20px;
+  padding: 1%;
+  align-items: center;
+  display: inline-block;
+  text-indent: 50px;
+}
+
