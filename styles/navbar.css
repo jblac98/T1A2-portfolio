@@ -128,10 +128,31 @@
  .sidebar.active .nav-item {
     display: inline;
  }
+
+ @media screen and (max-width: 600px) {
+   .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 40px;
+      background-color: var(--white);
+      padding: 0.2rem 0.4rem;
+      transition: all 0.5s ease;
+      
+   }
+   
+   .user-img {
+      width: 35px;
+      border-radius: 100%;
+      border: 1px solid #F4F2F8;
+   } 
+
+   .user {
+      align-items: center;
+      margin: 1rem 0;
+   
+   }
+
  
- /* To create spacing between the sidebar nav items */
-* {
-   /* margin-top: 5px;
-   margin-bottom: 35px;
-   box-sizing: border-box; */
-}
+ }
