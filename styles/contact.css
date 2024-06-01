@@ -33,6 +33,10 @@ h1 {
     border-radius: 10PX;
 }
 
+h2 {
+    text-align: center;
+    align-items: center;
+}
 /* To style the boxes ad their positions */
 .form-elements {
     /* display: flex; */

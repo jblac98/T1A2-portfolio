@@ -34,7 +34,14 @@ li p {
 }
 
 .button {
-    display: block;  
+    display: flex;
+    justify-content: center;
+    background-color: #000000; 
+    color: var(--white); 
+    border-radius: 10%;
+    text-decoration: none;
+    text-align: center;
+    
 }
 
 @media screen and (max-width: 600px) {
