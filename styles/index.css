@@ -1,15 +1,50 @@
 .intro-para p {
     color: var(--black);
-    display: flex;
-    margin-top: 5%;
+    margin: auto;
     padding-top: 30px;
     border-radius: 20px;
-    font-size: 32px;
-    width: 50%;
+    font-size: 3.2vw;
+    width: 75%;
 
 }
 
-@media screen and (max-width: 600px) {
+
+.headings h2 {
+    /* display: block; */
+    /* margin-left: 5%; */
+    /* padding: 10; */
+    /* height: 10vh; */
+    text-align: left;
+    line-height: 15vh;
+    font-size: 5.2vw;
+    color: var(--white);
+    
+}
+
+.headings h1 {
+    /* margin: 0; */
+    position: relative;
+    white-space: nowrap;
+    height: 10vh;
+    color: var(--white);
+    font-size: 6.2vw;
+
+}
+
+.headings h3 {
+    /* margin-right: 5%; */
+    text-align: right;
+    height: 5%;
+    color: var(--violet);
+    font-size: 4.2vw;
+}
+
+.headings {
+    margin: auto;
+    width: 50%;
+}
+
+/* @media screen and (max-width: 600px) {
     .intro-para {
         color: var(--black);
         margin-top: 5%;
@@ -21,4 +56,4 @@
     }
 
     
-}
+} */

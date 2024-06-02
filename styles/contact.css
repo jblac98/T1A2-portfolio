@@ -15,7 +15,10 @@
     padding-top: 20px;
     padding-left: 20px; */
     display: block;
-    padding-right: 5%;
+}
+
+.myinfobox div {
+    padding-bottom: 2%;
 }
 
 .emailmebox {
