@@ -14,43 +14,101 @@
 <h3>Functionalty and features
 <p>The functionality and features used are structure tags, hypertext and links, forms and input, CSS, media integration, accessability, responsive design, lists and semantic elements.</p>
 
-<h3>Wireframes:</h3>
+<h3>R6 - Wireframes</h3>
 
-Home page wireframes
+<p>I designed the background to have a linear gradient and have the purple flow from the left to the right, turning into pink and then white. I am aiming for a simple design, which meant I kept the same flow throughout the other pages. I played around with the colours of the headings, on the home page I chose white for the two headings to contrast this with the backgroud. I then Chose black for the rest of the pages to make it stand out and be readable. I kept the buttons a simple black with white writing as this fit the aesthetic of the page.  To keep the simple flow of things I added minimal images and one image on the about me page.</p>
+
+<h4>>Home page wireframes</h4>
+
 ![Mobile-homepage](./wireframe-screenshots/Wireframe%20-%20Mobile%20-%20Home%20Page%20.png)
 ![Tablet-homepage](./wireframe-screenshots/Wireframe%20-%20Tablet%20-%20Home%20Page%20.png)
 ![Tablet-sidebaractive-homepage](./wireframe-screenshots/Wireframe%20-%20Tablet.sidebar.active%20-%20Home%20Page%20.png)
 ![Desktop-homepage](./wireframe-screenshots/Wireframe%20-%20Desktop%20-%20Home%20Page%20.png)
 ![Desktop-sidebaractive-homepage](./wireframe-screenshots/Wireframe%20-%20Desktop.sidebar.active%20-%20Home%20Page%20.png)
 
-About page wireframees
+<h4>About page wireframes</h4>
+
 ![Mobile-aboutpage](./wireframe-screenshots/Wireframe%20-%20About%20-%20Mobile.png)
 ![Tablet-aboutpage](./wireframe-screenshots/Wireframe%20-%20About%20-%20Tablet.png)
 ![Tablet-aboutpage-sidebaractive](./wireframe-screenshots/Wireframe%20-%20About%20-%20Tablet%20-%20Sidebaractive.png)
 ![Desktop-aboutpage](./wireframe-screenshots/Wireframe%20-%20About%20-%20Desktop.png)
 ![Desktop-aboutpage-sidebaractive](./wireframe-screenshots/Wireframe%20-%20About%20-%20Desktop%20-%20Sidebaractive.png)
 
-Blog page wireframes
+<h4>Blog page wireframes</h4>
+
 ![Mobile-blogpage](./wireframe-screenshots/Wireframe%20-%20Blog%20-%20Mobile.png)
 ![Tablet-aboutpage](./wireframe-screenshots/Wireframe%20-%20Blog%20-%20Tablet.png)
 ![Tablet-aboutpage-sidebaractive](./wireframe-screenshots/Wireframe%20-%20Blog%20-%20Tablet%20-%20Activesidebar.png)
 ![Desktop-aboutpage](./wireframe-screenshots/Wireframe%20-%20Blog%20-%20Desktop.png)
 ![Desktop-aboutpage-sidebaractive](./wireframe-screenshots/Wireframe%20-%20Blog%20-%20Desktop%20-%20Activesidebar.png)
 
-Blog page-sample post wireframe
+<h4>Blog page-sample post wireframe</h4>
+
 ![Mobile-blogpagesamplepost](./wireframe-screenshots/Wireframe%20-%20blog%20sample%20post%20-%20mobile.png)
 ![Tablet-blogpagesamplepost](./wireframe-screenshots/Wireframe%20-%20blog%20sample%20post%20-%20tablet.png)
 ![Tablet-blogpagesamplepost-sidebaractive](./wireframe-screenshots/Wireframe%20-%20blog%20sample%20post%20-%20tablet%20-%20sidebaractive.png)
 ![Desktop-blogpagesamplepost](./wireframe-screenshots/Wireframe%20-%20blog%20sample%20post%20-%20desktop.png)
 ![Desktop-blogpagesamplepost-sidebaractive](./wireframe-screenshots/Wireframe%20-%20blog%20sample%20post%20-%20desktop%20-%20sidebaractive.png)
 
-Contact page wireframe
+<h4>Contact page wireframe</h4>
+
 ![Mobile-contactpage](./wireframe-screenshots/Wireframe%20-%20mobile%20-%20contact.png)
 ![Tablet-contactpage](./wireframe-screenshots/Wireframe%20-%20tablet%20-%20contact.png)
 ![Tablet-contactpage-sidebaractive](./wireframe-screenshots/Wireframe%20-%20tablet%20-%20contact%20-%20sidebaractive.png)
 ![Desktop-contactpage](./wireframe-screenshots/Wireframe%20-%20desktop%20-%20contact.png)
 ![Desktop-contactpage-sidebaractive](./wireframe-screenshots/Wireframe%20-%20desktop%20-%20contact%20-%20sidebaractive.png)
 
+<h3>R5 - Sitemap</h3>
+
+<p>For the layout I kept the home page, about page, blog page and contact page all connected to eachother and easy to find in the side navigation bar. Only when you get to the blog page when you click on the "Read More" button it will take you to the blog samples and here you will find an image with a block of text and a title. This makes it easy to navigate through the different pages.</p>
+
+![Sitemap](./Sitemap.png)
+
+<h3>Target Audience</h3>
+
+Target audience: Prospective employers
+
+Expectations of knowledge in:
+<ul>
+    <li>Softwre development</li>
+    <li>Coding</li>
+    <li>Programming languages</li>
+    <li>Development stacks</li>
+    <li>Professionalism</li>
+    <li>Positive work ethic</li>
+</ul>
+
+<h3>R7 - Tech Stack</h3>
+
+<ul>
+    <li>Linux operating system</li>
+    <li>VS Code</li>
+    <li>html</li>
+    <li>CSS</li>
+    <li>Jacvascript</li>
+    <li>Netlify</li>
+    <li>GitHub</li>
+    <li>drawio</li>
+    <li>Figma</li>
+</ul>
+
+<p>The linux operating system and VS Code work hand in hand. It will help with creating the directory and and with VS Code I will use that to create my html files and CSS for styling</p>
+
+<p>html will help me to structure the contents of the page</p>
+
+<p> I use CSS to style the contents on the page</p>
+
+<p>I have used Javascript to assit me in creating the sidebar</p>
+
+<p>I use Netlify to deploy my website and get it running</p>
+
+<p>I use GitHub to store the contents of my website on this platform. I also link this to Netlify to assist in deploying my website.
+
+<li> I used drawio to create my sitemap and this links into VS Code which is handy, this shows how you can navigate through my pages. </li>
+
+<li>Laslty, I use Figma to map out my designs for when I create this content in VS Code.</p>
+
+<p>All these components and tools are used to engage the audience when experiencing my website.</p>
 
 
 
