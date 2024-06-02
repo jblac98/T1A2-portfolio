@@ -1,8 +1,8 @@
 # T1A2-portfolio
 
-#Jessica Blackman Portfolio
+<h1>Jessica Blackman Portfolio</h1>
 
-##Link to finished website: https://main--jblackman-portfolio.netlify.app/
+<h2>Link to finished website: https://main--jblackman-portfolio.netlify.app/</h2>
 
 ##Link to GitHub repository: https://github.com/jblac98/T1A2-portfolio
 
