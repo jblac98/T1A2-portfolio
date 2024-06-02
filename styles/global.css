@@ -1,11 +1,14 @@
+/* To make all pages have a margin left og 8vw in the main section*/
 main {
     margin-left: 8vw;
 }
 
+/* To make all pages have a margin left og 8vw in the footer*/
 footer {
     margin-left: 8vw;
 }
 
+/* Variable colours to be used throughout the website on different pages */
 :root {
     --light-pink: #F9D8F9;
     --violet: #B726EA;
@@ -16,7 +19,6 @@ footer {
 }
 
 /* To split the background into 3 colours based on their percentages. */
-
 body {
     height: 100vh;
     background: linear-gradient(
@@ -27,7 +29,7 @@ body {
         #F4F2F8 100%
     );
 
-    /* min-height: 100vh; */
+
     flex-direction: column;
     justify-content: space-between;
     text-align: center;

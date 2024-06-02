@@ -1,3 +1,5 @@
+
+/* To style the intro para */
 .intro-para p {
     color: var(--black);
     margin: auto;
@@ -8,12 +10,8 @@
 
 }
 
-
+/* To style heading 2 */
 .headings h2 {
-    /* display: block; */
-    /* margin-left: 5%; */
-    /* padding: 10; */
-    /* height: 10vh; */
     text-align: left;
     line-height: 15vh;
     font-size: 5.2vw;
@@ -21,6 +19,7 @@
     
 }
 
+/* To style heading 1 */
 .headings h1 {
     /* margin: 0; */
     position: relative;
@@ -31,6 +30,7 @@
 
 }
 
+/* To style heading 3 */
 .headings h3 {
     /* margin-right: 5%; */
     text-align: right;
@@ -39,21 +39,8 @@
     font-size: 4.2vw;
 }
 
+/* To make all headings with the below style */
 .headings {
     margin: auto;
     width: 50%;
 }
-
-/* @media screen and (max-width: 600px) {
-    .intro-para {
-        color: var(--black);
-        margin-top: 5%;
-        padding-top: 30px;
-        padding-left: 25px;
-        padding-right: 25px;
-        border-radius: 20px;
-        font-size: 25px;
-    }
-
-    
-} */

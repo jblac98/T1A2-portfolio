@@ -1,16 +1,10 @@
-
+/* To style the heading with size and padding */
 h1 {
     font-size: 42px;
     padding: 5%;
 }
 
-article {
-    background-color: var(--mauve);
-    border-radius: 5%;
-    text-align: center;
-    margin: 15px 0;
-}
-
+/* To style the blog images */
 .blog-image {
     width: 25%;
     height: 30%;
@@ -20,10 +14,12 @@ article {
     border-radius: 2%;
 }
 
+/* To remove the default bullet points for the unordered list */
 ul {
     list-style-type: none;
 }
 
+/* To style the list paragraph */
 li p {
     display: inline-block;
     width: 40%;
@@ -33,12 +29,14 @@ li p {
 
 }
 
+/* To style the size and position of the list anchor tag */
 li a {
     display: block;
     margin: auto;
     width: 50%;
 }
 
+/* To style the buttons for the "Read More" button */
 .button {
     background-color: #000000; 
     color: var(--white); 
@@ -48,6 +46,7 @@ li a {
     
 }
 
+/* To make it responsive for mobile screens */
 @media screen and (max-width: 600px) {
     
     h1 {

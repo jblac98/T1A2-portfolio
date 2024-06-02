@@ -1,6 +1,5 @@
 
 /* To create a side bar when it is not active */
-
 .sidebar {
     position: fixed;
     top: 0;
@@ -19,8 +18,8 @@
    box-sizing: border-box;
    font-family:sans-serif;
  }
- /* To widen the sidebar once it has been clicked to open */
 
+ /* To widen the sidebar once it has been clicked to open */
 .sidebar.active {
     width: 250px;
  }
@@ -68,7 +67,6 @@
  } 
  
  /* Styling of the contents in the <p> tags */
-
  .user p {
     color: var(--violet);
     opacity: 1;
@@ -87,10 +85,12 @@
     display: block;
  }
 
+ /* To add padding to the ul in the sidebar */
 .sidebar ul {
    padding: 20px;
 }
  
+/* To style the sidebar list items */
  .sidebar ul li {
     position: relative;
     list-style-type: none;
@@ -100,6 +100,7 @@
     line-height: 50px;
  }
  
+ /* To style the sidebar list items anchor tag */
  .sidebar ul li a {
     color: var(--black);
     display: flex;
@@ -108,11 +109,13 @@
     border-radius: 0.8rem;
  }
  
+ /* To change colour when the pointer is hovering over the button */
  .sidebar ul li a:hover {
     background-color: var(--mauve);
     color: var(--black);
  }
  
+ /* To style the list item icons */
  .sidebar ul li a i {
     min-width: 50px;
     text-align: center;
@@ -125,10 +128,12 @@
     display: none;
  }
  
+ /* To position the nav item inline */
  .sidebar.active .nav-item {
     display: inline;
  }
 
+ /* To make website repsonive to a mobile screen */
  @media screen and (max-width: 600px) {
    .sidebar {
       position: fixed;

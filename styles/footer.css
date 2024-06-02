@@ -1,3 +1,5 @@
+
+/* To style the pages with these colours */
 :root {
     --light-pink: #F9D8F9;
     --violet: #B726EA;
@@ -6,12 +8,14 @@
 
 }
 
+/* To the position of the icons */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
+/* To add space in between the icons */
 .social-media {
     display: flex;
     align-items: center;
@@ -19,19 +23,13 @@ body {
     
 }
 
+/* To change the size and colour of the icons */
 .social-media a i {
     font-size: 32px;
     color: var(--black);
 }
 
-nav {
-    flex-direction: column;
-    justify-content: center;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-}
-
+/* To style the position, making icons round and having no underline under the words */
 nav a {
     text-decoration: none;
     background-color: var(--mauve);
@@ -46,6 +44,7 @@ nav a {
     border-radius: 10%;
 }
 
+/* To give the footer a margin */
 footer p {
     margin: 20px;
 }
