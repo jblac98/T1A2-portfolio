@@ -18,7 +18,7 @@
 
 <p>I designed the background to have a linear gradient and have the purple flow from the left to the right, turning into pink and then white. I am aiming for a simple design, which meant I kept the same flow throughout the other pages. I played around with the colours of the headings, on the home page I chose white for the two headings to contrast this with the backgroud. I then Chose black for the rest of the pages to make it stand out and be readable. I kept the buttons a simple black with white writing as this fit the aesthetic of the page.  To keep the simple flow of things I added minimal images and one image on the about me page.</p>
 
-<h4>>Home page wireframes</h4>
+<h4>Home page wireframes</h4>
 
 ![Mobile-homepage](./wireframe-screenshots/Wireframe%20-%20Mobile%20-%20Home%20Page%20.png)
 ![Tablet-homepage](./wireframe-screenshots/Wireframe%20-%20Tablet%20-%20Home%20Page%20.png)
@@ -92,33 +92,43 @@ Expectations of knowledge in:
     <li>Figma</li>
 </ul>
 
-<p>The linux operating system and VS Code work hand in hand. It will help with creating the directory and and with VS Code I will use that to create my html files and CSS for styling</p>
+<h4>Explanation</h4>
 
-<p>html will help me to structure the contents of the page</p>
+<li>The linux operating system and VS Code work hand in hand. It will help with creating the directory and and with VS Code I will use that to create my html files and CSS for styling</li>
 
-<p> I use CSS to style the contents on the page</p>
+<li>html will help me to structure the contents of the page</li>
 
-<p>I have used Javascript to assit me in creating the sidebar</p>
+<li>I use CSS to style the contents on the page</li>
 
-<p>I use Netlify to deploy my website and get it running</p>
+<li>I have used Javascript to assit me in creating the sidebar</li>
 
-<p>I use GitHub to store the contents of my website on this platform. I also link this to Netlify to assist in deploying my website.
+<li>I use Netlify to deploy my website and get it running</li>
 
-<li> I used drawio to create my sitemap and this links into VS Code which is handy, this shows how you can navigate through my pages. </li>
+<li>I use GitHub to store the contents of my website on this platform. I also link this to Netlify to assist in deploying my website.</li>
 
-<li>Laslty, I use Figma to map out my designs for when I create this content in VS Code.</p>
+<li>I used drawio to create my sitemap and this links into VS Code which is handy, this shows how you can navigate through my pages. </li>
 
-<p>All these components and tools are used to engage the audience when experiencing my website.</p>
+<li>Laslty, I use Figma to map out my designs for when I create this content in VS Code.</li>
+
+<li>All these components and tools are used to engage the audience when experiencing my website.</li>
 
 
+<h2>References</h2>
 
-https://www.youtube.com/watch?v=XIfEWsF2T5A - how to split a background into 2 colours
-https://www.w3schools.com/howto/howto_css_rounded_images.asp - how to create round images
-https://ait.instructure.com/courses/5351/pages/conference-recordings-term-1 - nav items, splitting the pages 
-https://www.w3schools.com/html/html_symbols.asp - for the copy right symbol
-https://ait.instructure.com/courses/5351/pages/conference-recordings-term-1 - t1w3 thursday - footer work
-https://ait.instructure.com/courses/5351/pages/conference-recordings-term-1 - t1w3 saturday - blog posts 
-https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp - Collapsible sidebar 
-https://www.geeksforgeeks.org/how-to-trigger-a-file-download-when-clicking-an-html-button-or-javascript/ - download file button
-https://www.youtube.com/watch?v=uy1tgKOnPB0 - collapsible side bar menu
-https://www.w3schools.com/howto/howto_css_contact_form.asp - how to create a contact form
+<li>HTML & CSS - how to split a background into 2 colors (2021) YouTube. Available at: https://www.youtube.com/watch?v=XIfEWsF2T5A (Accessed: 02 June 2024).</li>
+
+<li>How to - rounded images (no date) How To Create Rounded Images. Available at: https://www.w3schools.com/howto/howto_css_rounded_images.asp (Accessed: 02 June 2024).</li>
+
+<li>(No date) HTML symbols. Available at: https://www.w3schools.com/html/html_symbols.asp (Accessed: 02 June 2024).</li>
+
+<li>Coder Academy (2024) How to create a footer Avilable at: https://ait.instructure.com/courses/5351/pages/conference-recordings-term-1 (Accessed: 02 June 2024)</li>
+
+<li>Coder Academy (2024) How to create blog posts Avilable at: https://ait.instructure.com/courses/5351/pages/conference-recordings-term-1 (Accessed: 02 June 2024)</li>
+
+<li>How to - collapse sidebar (no date) How To Create a Collapsed Sidebar. Available at: https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp (Accessed: 02 June 2024).</li> 
+
+<li>GeeksforGeeks (2023) How to trigger a file download when clicking an HTML button or JavaScript?, GeeksforGeeks. Available at: https://www.geeksforgeeks.org/how-to-trigger-a-file-download-when-clicking-an-html-button-or-javascript/ (Accessed: 02 June 2024).</li> 
+
+<li>Build a responsive sidebar menu in HTML, CSS, & javascript - beginner (2023) YouTube. Available at: https://www.youtube.com/watch?v=uy1tgKOnPB0 (Accessed: 02 June 2024).</li>
+
+<li>How to - contact form (no date) How To Create a Contact Form with CSS. Available at: https://www.w3schools.com/howto/howto_css_contact_form.asp (Accessed: 02 June 2024).</li> 
