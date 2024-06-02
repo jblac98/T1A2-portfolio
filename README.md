@@ -8,7 +8,7 @@
 
 <h2>Portfolio Website:</h2>
 
-<h3>>Purpose</h3>
+<h3>Purpose</h3>
 <p>The purpose of this assessment is to demonstrate my ability and showcase my skills to prospective employers. I will accomplish this by creating a website that will show my coding ability.</p>
 
 <h3>Functionalty and features
@@ -16,35 +16,35 @@
 
 <h3>Wireframes:</h3>
 
-<h4>>Home page wireframes</h4>
+Home page wireframes
 ![Mobile-homepage](./wireframe-screenshots/Wireframe%20-%20Mobile%20-%20Home%20Page%20.png)
 ![Tablet-homepage](./wireframe-screenshots/Wireframe%20-%20Tablet%20-%20Home%20Page%20.png)
 ![Tablet-sidebaractive-homepage](./wireframe-screenshots/Wireframe%20-%20Tablet.sidebar.active%20-%20Home%20Page%20.png)
 ![Desktop-homepage](./wireframe-screenshots/Wireframe%20-%20Desktop%20-%20Home%20Page%20.png)
 ![Desktop-sidebaractive-homepage](./wireframe-screenshots/Wireframe%20-%20Desktop.sidebar.active%20-%20Home%20Page%20.png)
 
-<h4>About page wireframes</h4>
+About page wireframees
 ![Mobile-aboutpage](./wireframe-screenshots/Wireframe%20-%20About%20-%20Mobile.png)
 ![Tablet-aboutpage](./wireframe-screenshots/Wireframe%20-%20About%20-%20Tablet.png)
 ![Tablet-aboutpage-sidebaractive](./wireframe-screenshots/Wireframe%20-%20About%20-%20Tablet%20-%20Sidebaractive.png)
 ![Desktop-aboutpage](./wireframe-screenshots/Wireframe%20-%20About%20-%20Desktop.png)
 ![Desktop-aboutpage-sidebaractive](./wireframe-screenshots/Wireframe%20-%20About%20-%20Desktop%20-%20Sidebaractive.png)
 
-<h4>Blog page wireframes</h4>
+Blog page wireframes
 ![Mobile-blogpage](./wireframe-screenshots/Wireframe%20-%20Blog%20-%20Mobile.png)
 ![Tablet-aboutpage](./wireframe-screenshots/Wireframe%20-%20Blog%20-%20Tablet.png)
 ![Tablet-aboutpage-sidebaractive](./wireframe-screenshots/Wireframe%20-%20Blog%20-%20Tablet%20-%20Activesidebar.png)
 ![Desktop-aboutpage](./wireframe-screenshots/Wireframe%20-%20Blog%20-%20Desktop.png)
 ![Desktop-aboutpage-sidebaractive](./wireframe-screenshots/Wireframe%20-%20Blog%20-%20Desktop%20-%20Activesidebar.png)
 
-<h4>Blog page-sample post wireframe</h4>
+Blog page-sample post wireframe
 ![Mobile-blogpagesamplepost](./wireframe-screenshots/Wireframe%20-%20blog%20sample%20post%20-%20mobile.png)
 ![Tablet-blogpagesamplepost](./wireframe-screenshots/Wireframe%20-%20blog%20sample%20post%20-%20tablet.png)
 ![Tablet-blogpagesamplepost-sidebaractive](./wireframe-screenshots/Wireframe%20-%20blog%20sample%20post%20-%20tablet%20-%20sidebaractive.png)
 ![Desktop-blogpagesamplepost](./wireframe-screenshots/Wireframe%20-%20blog%20sample%20post%20-%20desktop.png)
 ![Desktop-blogpagesamplepost-sidebaractive](./wireframe-screenshots/Wireframe%20-%20blog%20sample%20post%20-%20desktop%20-%20sidebaractive.png)
 
-<h4>Contact page wireframe</h4>
+Contact page wireframe
 ![Mobile-contactpage](./wireframe-screenshots/Wireframe%20-%20mobile%20-%20contact.png)
 ![Tablet-contactpage](./wireframe-screenshots/Wireframe%20-%20tablet%20-%20contact.png)
 ![Tablet-contactpage-sidebaractive](./wireframe-screenshots/Wireframe%20-%20tablet%20-%20contact%20-%20sidebaractive.png)
